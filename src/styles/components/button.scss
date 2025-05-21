@@ -1,0 +1,15 @@
+.button{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    
+    &--primary{
+        color: #fff;
+        background-color: blue;
+    }
+}

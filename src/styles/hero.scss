@@ -1,0 +1,47 @@
+.hero{
+    padding-top: 64px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/free-vector/realistic-golden-confetti-background_52683-26885.jpg?ga=GA1.1.1408663927.1745541042&semt=ais_hybrid&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    &__text{
+        font-size: 60px;
+        font-weight: bold;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+
+        #contador{
+            color: #fff;
+        }
+    }
+
+    @media (max-width:640px){
+        .container{
+           width: 80%;
+        }
+        &__text{
+            font-size: 32px;
+            width: 100%;
+            margin: 24px 0;
+        }
+       
+       .infos__list__item{
+            width: 100%;
+            padding: 10px;
+            font-size: 22px;
+            text-align: justify;
+        }
+
+        .button{
+            justify-content: center;
+            padding: 10px;
+            font-size: 16px;
+        }
+         
+
+          
+        
+    }
+}
