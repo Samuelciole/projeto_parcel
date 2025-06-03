@@ -1,0 +1,169 @@
+.hero {
+  background-color: #0000;
+  background-image: linear-gradient(#000000b3, #000000b3), url("https://img.freepik.com/free-vector/realistic-golden-confetti-background_52683-26885.jpg?ga=GA1.1.1408663927.1745541042&semt=ais_hybrid&w=740");
+  background-position: 0 0, 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  padding-top: 64px;
+  padding-bottom: 50px;
+}
+
+.hero__text {
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero__text #contador {
+  color: #fff;
+}
+
+@media (width <= 640px) {
+  .hero .container {
+    width: 80%;
+  }
+
+  .hero__text {
+    width: 100%;
+    margin: 24px 0;
+    font-size: 14px;
+  }
+}
+
+.infos {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  justify-content: space-around;
+  max-width: 780px;
+  margin: 100px auto;
+  padding: 16px 24px;
+  display: flex;
+}
+
+.infos__list {
+  gap: 40px;
+  display: flex;
+}
+
+.infos__list__item {
+  font-size: 14px;
+  display: block;
+}
+
+.infos__list__item b {
+  font-size: 18px;
+  display: block;
+}
+
+@media (width <= 640px) {
+  .infos {
+    width: 100%;
+  }
+
+  .infos__list {
+    width: 100%;
+    display: block;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+}
+
+.button--primary {
+  color: #fff;
+  background-color: #00f;
+}
+
+.event {
+  padding: 80px 0;
+}
+
+.event .container {
+  display: flex;
+}
+
+.event img {
+  width: 300px;
+  max-width: 800px;
+  height: 100%;
+  max-height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.event--image .container {
+  flex-direction: row-reverse;
+}
+
+.event__text__title {
+  margin-bottom: 10px;
+}
+
+.event--lugar {
+  background-image: linear-gradient(#fff, #e6f2ff);
+}
+
+.event--pix {
+  background-image: linear-gradient(#e6f2ff, #cce5ff);
+}
+
+.event--data {
+  background-image: linear-gradient(#cce5ff, #9cf);
+}
+
+.event--venha {
+  background-image: linear-gradient(#9cf, #007bff);
+}
+
+@media (width <= 640px) {
+  .event {
+    padding: 40px 0;
+  }
+
+  .event .container {
+    display: block;
+  }
+
+  .event__text {
+    width: 100%;
+    max-width: 100px;
+    font-size: 14px;
+  }
+
+  .event img {
+    width: 100%;
+    max-width: 100px;
+    margin-top: 10px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
